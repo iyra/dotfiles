@@ -5,5 +5,5 @@ export QT_IM_MODULE=ibus
 ibus-daemon -drx &
 stalonetray &
 #dbus-launch --exit-with-session /usr/bin/xmonad
-feh --bg-fill ~/.wallpapers/2.jpg --bg-fill ~/.wallpapers/stairs.jpg
+feh --bg-fill ~/.wallpapers/2.jpg --bg-fill ~/.wallpapers/stairs.jpg &
 dbus-launch --exit-with-session /usr/bin/fluxbox

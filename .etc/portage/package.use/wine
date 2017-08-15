@@ -1,0 +1,180 @@
+app-emulation/wine X alsa cups fontconfig gecko jpeg lcms ldap mono mp3 ncurses nls opengl perl png pulseaudio realtime run-exes ssl threads truetype udev udisks v4l xcomposite xml capi dos gphoto2 gsm gstreamer odbc openal xinerama osmesa pcap
+# required by app-emulation/wine-2.0::gentoo[osmesa]
+# required by wine (argument)
+>=media-libs/mesa-17.0.6 osmesa
+# required by app-emulation/wine-2.0::gentoo[capi]
+# required by wine (argument)
+>=net-libs/libcapi-3.0.7-r1 abi_x86_32
+# required by gnome-base/librsvg-2.40.18::gentoo
+# required by x11-libs/gtk+-3.22.16::gentoo
+# required by media-libs/gst-plugins-bad-1.10.5::gentoo[gtk]
+# required by media-plugins/gst-plugins-dts-1.10.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[dts]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=x11-libs/gdk-pixbuf-2.36.6 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[aac]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-faad-1.10.5 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[ffmpeg]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-libav-1.10.5 abi_x86_32
+# required by x11-libs/gtk+-3.22.16::gentoo[X]
+# required by media-libs/gst-plugins-bad-1.10.5::gentoo[gtk]
+# required by media-plugins/gst-plugins-dts-1.10.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[dts]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=app-accessibility/at-spi2-atk-2.22.0 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[flac]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-flac-1.10.5 abi_x86_32
+# required by app-emulation/wine-2.0::gentoo[pcap]
+# required by wine (argument)
+>=net-libs/libpcap-1.8.1 abi_x86_32
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-meta-1.10.5 abi_x86_32
+# required by media-libs/gst-plugins-bad-1.10.5::gentoo[gtk]
+# required by media-plugins/gst-plugins-dts-1.10.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[dts]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=x11-libs/gtk+-3.22.16 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[libass]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-assrender-1.10.5 abi_x86_32
+# required by app-accessibility/at-spi2-atk-2.22.0::gentoo
+# required by x11-libs/gtk+-3.22.16::gentoo[X]
+# required by media-libs/gst-plugins-bad-1.10.5::gentoo[gtk]
+# required by media-plugins/gst-plugins-dts-1.10.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[dts]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=dev-libs/atk-2.22.0 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[v4l]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-v4l2-1.10.5 abi_x86_32
+# required by media-libs/libgphoto2-2.5.12::gentoo[exif]
+# required by app-emulation/wine-2.0::gentoo[gphoto2]
+# required by wine (argument)
+>=media-libs/libexif-0.6.21-r1 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[dvd,-vcd,mpeg]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-mpeg2dec-1.10.5 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[dvd]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-dvdread-1.10.5 abi_x86_32
+# required by media-plugins/gst-plugins-resindvd-1.10.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[dvd]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-libs/gst-plugins-bad-1.10.5 abi_x86_32
+# required by dev-db/unixODBC-2.3.2-r1::gentoo
+# required by app-emulation/wine-2.0::gentoo[odbc]
+# required by wine (argument)
+>=dev-libs/libltdl-2.4.6 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[dvd,a52]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-a52dec-1.10.5 abi_x86_32
+# required by app-emulation/wine-2.0::gentoo[openal]
+# required by wine (argument)
+>=media-libs/openal-1.15.1-r2 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[opus]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-opus-1.10.5 abi_x86_32
+# required by media-plugins/gst-plugins-v4l2-1.10.5::gentoo[udev]
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[v4l]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=virtual/libgudev-230 abi_x86_32
+# required by x11-libs/gtk+-3.22.16::gentoo
+# required by media-libs/gst-plugins-bad-1.10.5::gentoo[gtk]
+# required by media-plugins/gst-plugins-dts-1.10.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[dts]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=gnome-base/librsvg-2.40.18 abi_x86_32
+# required by gnome-base/librsvg-2.40.18::gentoo
+# required by x11-libs/gtk+-3.22.16::gentoo
+# required by media-libs/gst-plugins-bad-1.10.5::gentoo[gtk]
+# required by media-plugins/gst-plugins-dts-1.10.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[dts]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=dev-libs/libcroco-0.6.12-r1 abi_x86_32
+# required by x11-libs/gtk+-3.22.16::gentoo
+# required by media-libs/gst-plugins-bad-1.10.5::gentoo[gtk]
+# required by media-plugins/gst-plugins-dts-1.10.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[dts]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-libs/libepoxy-1.4.2 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[dvd]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-resindvd-1.10.5 abi_x86_32
+# required by media-libs/libgphoto2-2.5.12::gentoo[cameras_st2205,cameras_ax203]
+# required by app-emulation/wine-2.0::gentoo[gphoto2]
+# required by wine (argument)
+>=media-libs/gd-2.2.4 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[x264]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-x264-1.10.5 abi_x86_32
+# required by virtual/libgudev-230::gentoo
+# required by media-plugins/gst-plugins-v4l2-1.10.5::gentoo[udev]
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[v4l]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=dev-libs/libgudev-231 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-libs/gst-plugins-good-1.10.5 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[dts]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-dts-1.10.5 abi_x86_32
+# required by media-plugins/gst-plugins-x264-1.10.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[x264]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-libs/gst-plugins-ugly-1.10.5 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[wavpack]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-wavpack-1.10.5 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[mp3]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-mad-1.10.5 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[pulseaudio]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-pulse-1.10.5 abi_x86_32
+# required by app-accessibility/at-spi2-atk-2.22.0::gentoo
+# required by x11-libs/gtk+-3.22.16::gentoo[X]
+# required by media-libs/gst-plugins-bad-1.10.5::gentoo[gtk]
+# required by media-plugins/gst-plugins-dts-1.10.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[dts]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=app-accessibility/at-spi2-core-2.22.1 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[cdda]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-cdparanoia-1.10.5 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.10.5::gentoo[taglib]
+# required by app-emulation/wine-2.0::gentoo[gstreamer]
+# required by wine (argument)
+>=media-plugins/gst-plugins-taglib-1.10.5 abi_x86_32

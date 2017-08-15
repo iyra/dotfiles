@@ -1,0 +1,80 @@
+net-misc/iputils -caps -filecaps
+sys-libs/ncurses -gpm
+# required by net-dns/libidn2-0.16-r1::gentoo
+# required by net-libs/gnutls-3.5.13::gentoo[idn]
+# required by net-print/cups-2.1.4::gentoo[ssl]
+# required by app-text/ghostscript-gpl-9.21::gentoo[cups]
+# required by net-print/cups-filters-1.13.5::gentoo[postscript]
+>=dev-libs/libunistring-0.9.7 abi_x86_32
+# required by virtual/libudev-232::gentoo[-systemd,-static-libs]
+# required by sys-apps/pciutils-3.4.1::gentoo[udev]
+# required by @selected
+# required by @world (argument)
+>=sys-fs/eudev-3.1.5 abi_x86_32
+# required by net-libs/gnutls-3.5.13::gentoo[idn]
+# required by net-print/cups-2.1.4::gentoo[ssl]
+# required by app-text/ghostscript-gpl-9.21::gentoo[cups]
+# required by net-print/cups-filters-1.13.5::gentoo[postscript]
+>=net-dns/libidn2-0.16-r1 abi_x86_32
+# required by media-libs/mesa-17.0.6::gentoo[-video_cards_r600,video_cards_radeonsi,-video_cards_radeon,-video_cards_r100,-video_cards_r300,-video_cards_r200]
+# required by x11-libs/cairo-1.14.8::gentoo[opengl]
+# required by x11-libs/pango-1.40.6::gentoo
+# required by x11-libs/gtk+-3.22.16::gentoo
+# required by app-text/ghostscript-gpl-9.21::gentoo[gtk]
+# required by net-print/cups-filters-1.13.5::gentoo[postscript]
+# required by net-print/cups-2.1.4::gentoo
+# required by dev-qt/qtgui-4.8.7::gentoo[cups]
+# required by dev-qt/qt3support-4.8.7::gentoo
+>=x11-libs/libdrm-2.4.80 video_cards_radeon
+# required by media-libs/mesa-17.0.6::gentoo[llvm,-video_cards_r600,video_cards_radeonsi,-video_cards_radeon,-opencl]
+# required by x11-libs/cairo-1.14.8::gentoo[opengl]
+# required by x11-libs/pango-1.40.6::gentoo
+# required by x11-libs/gtk+-3.22.16::gentoo
+# required by app-text/ghostscript-gpl-9.21::gentoo[gtk]
+# required by net-print/cups-filters-1.13.5::gentoo[postscript]
+# required by net-print/cups-2.1.4::gentoo
+# required by dev-qt/qtgui-4.8.7::gentoo[cups]
+# required by dev-qt/qt3support-4.8.7::gentoo
+>=virtual/libelf-1 abi_x86_32
+# required by x11-libs/cairo-1.14.8::gentoo
+# required by x11-libs/pango-1.40.6::gentoo
+# required by x11-libs/gtk+-3.22.16::gentoo
+# required by app-text/ghostscript-gpl-9.21::gentoo[gtk]
+# required by net-print/cups-filters-1.13.5::gentoo[postscript]
+# required by net-print/cups-2.1.4::gentoo
+# required by dev-qt/qtgui-4.8.7::gentoo[cups]
+# required by dev-qt/qt3support-4.8.7::gentoo
+>=sys-libs/binutils-libs-2.28-r1 abi_x86_32
+# required by media-video/ffmpeg-3.2.4::gentoo[sdl]
+# required by media-video/mpv-0.25.0-r2::gentoo
+# required by mpv (argument)
+>=media-libs/libsdl2-2.0.4 abi_x86_32
+# required by media-video/ffmpeg-3.2.4::gentoo[zimg]
+# required by media-video/mpv-0.25.0-r2::gentoo
+# required by mpv (argument)
+>=media-libs/zimg-2.5 abi_x86_32
+# required by media-video/ffmpeg-3.2.4::gentoo[ssh]
+# required by media-video/mpv-0.25.0-r2::gentoo
+# required by mpv (argument)
+>=net-libs/libssh-0.7.4 abi_x86_32
+# required by media-video/ffmpeg-3.2.4::gentoo[encode,x265]
+# required by media-video/mpv-0.25.0-r2::gentoo
+# required by mpv (argument)
+>=media-libs/x265-2.2 abi_x86_32
+# required by app-misc/anki-2.0.33::gentoo[python_targets_python2_7]
+# required by anki (argument)
+>=dev-lang/python-2.7.12:2.7 sqlite
+# required by app-misc/anki-2.0.33::gentoo
+# required by anki (argument)
+>=dev-python/PyQt4-4.12 webkit
+# required by net-misc/curl-7.54.1::gentoo[ssh]
+# required by dev-vcs/git-2.13.0::gentoo[curl]
+# required by www-client/chromium-59.0.3071.104::gentoo
+# required by chromium (argument)
+>=net-libs/libssh2-1.7.0 abi_x86_32
+# required by www-client/chromium-59.0.3071.104::gentoo
+# required by chromium (argument)
+>=sys-libs/zlib-1.2.11 minizip
+# required by www-client/chromium-59.0.3071.104::gentoo
+# required by chromium (argument)
+>=media-libs/harfbuzz-1.4.6-r2 icu

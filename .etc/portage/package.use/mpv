@@ -1,0 +1,43 @@
+media-video/mpv libav
+# required by dev-texlive/texlive-xetex-2016::gentoo
+# required by dev-texlive/texlive-formatsextra-2016::gentoo
+# required by app-text/texlive-2016::gentoo[extra]
+# required by app-misc/anki-2.0.33::gentoo[latex]
+# required by anki (argument)
+>=app-text/texlive-core-2016-r5 xetex
+# required by x11-libs/libXp-1.0.3::gentoo
+# required by app-text/texlive-core-2016-r5::gentoo[X]
+# required by dev-texlive/texlive-latexextra-2016::gentoo
+# required by dev-texlive/texlive-xetex-2016::gentoo
+# required by dev-texlive/texlive-formatsextra-2016::gentoo
+# required by app-text/texlive-2016::gentoo[extra]
+# required by app-misc/anki-2.0.33::gentoo[latex]
+# required by anki (argument)
+>=x11-proto/printproto-1.0.5-r1 abi_x86_32
+# required by media-sound/paprefs-0.9.10::gentoo
+# required by paprefs (argument)
+>=media-sound/pulseaudio-10.0 gnome
+# required by sys-power/suspend-1.0_p20150810::gentoo[crypt]
+# required by sys-power/suspend (argument)
+>=dev-libs/libgcrypt-1.7.8 static-libs
+# required by sys-power/suspend-1.0_p20150810::gentoo[crypt]
+# required by sys-power/suspend (argument)
+>=dev-libs/libgpg-error-1.27-r1 static-libs
+# required by sys-power/suspend-1.0_p20150810::gentoo[lzo]
+# required by sys-power/suspend (argument)
+>=dev-libs/lzo-2.09 static-libs
+# required by media-libs/mesa-17.0.6::gentoo[opencl]
+# required by virtual/opencl-0-r4::gentoo
+# required by net-p2p/ethminer-0.11.0::reagentoo[opencl]
+# required by ethminer (argument)
+>=sys-devel/clang-3.9.1-r100 abi_x86_32
+# required by sys-devel/clang-3.9.1-r100::gentoo
+# required by media-libs/mesa-17.0.6::gentoo[opencl]
+# required by virtual/opencl-0-r4::gentoo
+# required by net-p2p/ethminer-0.11.0::reagentoo[opencl]
+# required by ethminer (argument)
+>=sys-devel/llvm-3.9.1-r1 clang
+# required by virtual/opencl-0-r4::gentoo
+# required by net-p2p/ethminer-0.11.0::reagentoo[opencl]
+# required by ethminer (argument)
+>=media-libs/mesa-17.0.6 opencl

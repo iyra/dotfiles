@@ -1,0 +1,3 @@
+net-p2p/retroshare cli gui feedreader voip
+dev-qt/qtgui ibus libinput
+dev-qt/qtmultimedia gstreamer

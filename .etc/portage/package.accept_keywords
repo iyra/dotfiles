@@ -1,0 +1,72 @@
+# required by rc (argument)
+=app-shells/rc-1.7.4-r1 ~amd64
+# required by bspwm (argument)
+=x11-wm/bspwm-0.9.2 ~amd64
+# required by x11-wm/bspwm-0.9.2::gentoo
+# required by bspwm (argument)
+=x11-misc/sxhkd-0.5.7 ~amd64
+# required by app-i18n/mozc-2.16.2037.102::gentoo
+# required by mozc (argument)
+=app-i18n/tegaki-zinnia-japanese-0.3 ~amd64
+# required by mozc (argument)
+=app-i18n/mozc-2.16.2037.102 ~amd64
+# required by dev-lang/moarvm-2017.07::gentoo
+# required by dev-lang/nqp-2017.07::gentoo[moar]
+# required by dev-lang/rakudo-2017.07::gentoo
+# required by virtual/perl6-0::gentoo
+# required by virtual/perl6 (argument)
+=dev-libs/libtommath-1.0-r1 ~amd64
+# required by dev-lang/rakudo-2017.07::gentoo
+# required by virtual/perl6-0::gentoo
+# required by virtual/perl6 (argument)
+=dev-lang/nqp-2017.07 ~amd64
+# required by virtual/perl6 (argument)
+=virtual/perl6-0 ~amd64
+# required by virtual/perl6-0::gentoo
+# required by virtual/perl6 (argument)
+=dev-lang/rakudo-2017.07 ~amd64
+# required by dev-lang/nqp-2017.07::gentoo[moar]
+# required by dev-lang/rakudo-2017.07::gentoo
+# required by virtual/perl6-0::gentoo
+# required by virtual/perl6 (argument)
+=dev-lang/moarvm-2017.07 ~amd64
+# required by media-sound/beets-1.4.3::gentoo[badfiles]
+# required by beets (argument)
+=media-sound/mp3val-0.1.8 ~amd64
+# required by media-sound/beets-1.4.3::gentoo[bpd]
+# required by beets (argument)
+=dev-python/bluelet-0.2.0 ~amd64
+# required by beets (argument)
+=media-sound/beets-1.4.3 ~amd64
+# required by media-sound/beets-1.4.3::gentoo
+# required by beets (argument)
+=dev-python/munkres-1.0.8 ~amd64
+# required by dev-python/pyacoustid-1.0.0-r1::gentoo
+# required by media-sound/beets-1.4.3::gentoo[chroma]
+# required by beets (argument)
+=dev-python/audioread-1.0.1-r1 ~amd64
+# required by media-sound/beets-1.4.3::gentoo[chroma]
+# required by beets (argument)
+=dev-python/pyacoustid-1.0.0-r1 ~amd64
+# required by media-sound/beets-1.4.3::gentoo
+# required by beets (argument)
+=dev-python/jellyfish-0.5.6 ~amd64
+# required by ethminer (argument)
+=net-p2p/ethminer-0.11.0 ~amd64
+# required by net-p2p/ethminer-0.11.0::reagentoo
+# required by ethminer (argument)
+=dev-cpp/libjson-rpc-cpp-0.7.0 ~amd64
+# required by syncplay (argument)
+=media-video/syncplay-1.4.0 ~amd64
+# required by rust-bin (argument)
+=dev-lang/rust-bin-1.19.0 ~amd64
+# required by dev-util/cargo-0.20.0::gentoo
+# required by dev-util/cargo (argument)
+=dev-lang/rust-1.19.0 ~amd64
+# required by dev-lang/rust-1.19.0::gentoo
+# required by dev-lang/rust (argument)
+=dev-util/cargo-0.20.0 ~amd64
+# required by tagainijisho (argument)
+=app-i18n/tagainijisho-1.0.3-r1 ~amd64
+# required by netvirt (argument)
+=net-misc/netvirt-9999 **

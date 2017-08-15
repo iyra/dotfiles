@@ -1,0 +1,13 @@
+media-video/syncplay client server gui
+# required by dev-qt/qtcore-5.7.1-r3::gentoo
+# required by dev-qt/qtscript-5.7.1::gentoo
+# required by net-p2p/retroshare-0.6.2::gentoo
+# required by retroshare (argument)
+>=dev-libs/libpcre-8.40-r1 pcre16
+# required by net-p2p/retroshare-0.6.2::gentoo[voip]
+# required by retroshare (argument)
+>=media-libs/opencv-2.4.13 -qt4
+# required by sys-libs/slang-2.3.0::gentoo[cjk]
+# required by app-misc/mc-4.8.18-r1::gentoo[slang]
+# required by app-misc/mc (argument)
+>=dev-libs/oniguruma-5.9.5 abi_x86_32
