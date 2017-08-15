@@ -19,10 +19,10 @@ session.screen0.slit.acceptKdeDockapps:	true
 session.screen0.slit.onhead:	0
 session.screen0.slit.layer:	Dock
 session.screen0.clientMenu.usePixmap:	true
-session.screen0.toolbar.visible:	true
+session.screen0.toolbar.visible:	false
 session.screen0.toolbar.placement:	BottomCenter
 session.screen0.toolbar.height:	0
-session.screen0.toolbar.onhead:	0
+session.screen0.toolbar.onhead:	2
 session.screen0.toolbar.tools:	prevworkspace, workspacename, nextworkspace, iconbar, systemtray, clock
 session.screen0.toolbar.layer:	Dock
 session.screen0.toolbar.widthPercent:	100

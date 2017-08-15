@@ -70,3 +70,7 @@
 =app-i18n/tagainijisho-1.0.3-r1 ~amd64
 # required by netvirt (argument)
 =net-misc/netvirt-9999 **
+# required by puddletag (argument)
+=media-sound/puddletag-1.2.0 ~amd64
+# required by chez-scheme (argument)
+=dev-scheme/chez-scheme-9.4 ~amd64
