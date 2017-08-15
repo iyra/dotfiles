@@ -1,0 +1,10 @@
+directory: /hdd/music-lib
+library: ~/beetslib2.blb
+import:
+ move: no
+ write: yes
+ copy: yes
+paths:
+ default: $albumartist/$album/$track $title
+ singleton: Singletons/$artist - $title
+ comp: Compilations/$album/$track $title
