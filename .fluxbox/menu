@@ -16,31 +16,32 @@
 #     session.menuFile: ~/.fluxbox/my-menu
 [begin] (Fluxbox 1.3.7)
 [encoding] {UTF-8}
-      [exec] (xterm) {xterm} </usr/share/pixmaps/xterm-color_48x48.xpm>
-      [exec] (chromium) {chromium} </usr/share/icons/hicolor/64x64/apps/chromium-browser.png>
-      [exec]   (Run) {fbrun} 
+      [exec] (st) {st} </usr/share/pixmaps/xterm-color_48x48.xpm>
+      [exec] (firefox) {firefox-bin} </usr/share/icons/hicolor/32x32/apps/firefox-bin.png>
+      [exec]   (Run) {fbrun}
+      [exec] (et hirntot) {/home/iyra/et-sdl-sound +connect 193.192.59.186}
 [submenu] (Terminals)
-      [exec]   (xterm) {xterm} </usr/share/pixmaps/xterm-color_48x48.xpm>
+      [exec]   (st) {st} </usr/share/pixmaps/st-color_48x48.xpm>
 [end]
 [submenu] (Net)
 [submenu] (Browsers)
       [exec]   (chromium) {chromium} </usr/share/icons/hicolor/64x64/apps/chromium-browser.png>
-      [exec]   (w3m) {xterm -e w3m fluxbox.org} 
+      [exec]   (w3m) {st -e w3m fluxbox.org} 
 [end]
 [submenu] (IRC)
-      [exec]   (irssi) {xterm -e irssi} 
-      [exec]   (ninja) {xterm -e ninja} 
+      [exec]   (irssi) {st -e irssi} 
+      [exec]   (ninja) {st -e ninja} 
 [end]
 [end]
 [submenu] (Editors)
       [exec]   (emacs) {emacs} </usr/share/emacs/25.2/etc/images/icons/hicolor/24x24/apps/emacs.png>
-      [exec]   (nano) {xterm -e nano} 
-      [exec]   (vim) {xterm -e vim} </usr/share/icons/HighContrast/24x24/apps/vim.png>
-      [exec]   (vi) {xterm -e vi} </usr/share/icons/HighContrast/24x24/apps/vim.png>
-      [exec]   (emacs-nw) {xterm -e emacs -nw} </usr/share/icons/hicolor/24x24/apps/emacs.png>
+      [exec]   (nano) {st -e nano} 
+      [exec]   (vim) {st -e vim} </usr/share/icons/HighContrast/24x24/apps/vim.png>
+      [exec]   (vi) {st -e vi} </usr/share/icons/HighContrast/24x24/apps/vim.png>
+      [exec]   (emacs-nw) {st -e emacs -nw} </usr/share/icons/hicolor/24x24/apps/emacs.png>
 [end]
 [submenu] (File utils)
-      [exec]   (mc) {xterm -e mc} 
+      [exec]   (mc) {st -e mc} 
 [end]
 [submenu] (Multimedia)
 [submenu] (Graphics)
@@ -54,7 +55,7 @@
       [exec]   (dosbox) {dosbox} 
 [end]
 [submenu] (System Tools)
-      [exec]   (top) {xterm -e top} 
+      [exec]   (top) {st -e top} 
 [end]
 [submenu] (Fluxbox menu)
       [config] (Configure) 
