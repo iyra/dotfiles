@@ -178,3 +178,24 @@ app-emulation/wine X alsa cups fontconfig gecko jpeg lcms ldap mono mp3 ncurses 
 # required by app-emulation/wine-2.0::gentoo[gstreamer]
 # required by wine (argument)
 >=media-plugins/gst-plugins-taglib-1.10.5 abi_x86_32
+# required by app-text/calibre-2.78.0::gentoo
+# required by calibre (argument)
+>=app-text/poppler-0.45.0 qt5
+# required by app-text/calibre-2.78.0::gentoo
+# required by calibre (argument)
+>=dev-python/PyQt5-5.7.1 webkit
+# required by dev-qt/qtwebkit-5.7.1::gentoo
+# required by dev-python/PyQt5-5.7.1::gentoo[webkit]
+# required by app-text/calibre-2.78.0::gentoo
+# required by calibre (argument)
+>=dev-qt/qtcore-5.7.1-r3 icu
+# required by dev-python/PyQt5-5.7.1::gentoo[webkit]
+# required by app-text/calibre-2.78.0::gentoo
+# required by calibre (argument)
+>=dev-qt/qtwebkit-5.7.1 printsupport
+# required by www-client/qutebrowser-0.9.1::gentoo
+# required by qutebrowser (argument)
+>=dev-python/PyQt5-5.7.1 declarative
+# required by www-client/qutebrowser-0.9.1::gentoo[gstreamer]
+# required by qutebrowser (argument)
+>=dev-qt/qtwebkit-5.7.1 gstreamer

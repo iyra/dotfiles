@@ -74,3 +74,11 @@
 =media-sound/puddletag-1.2.0 ~amd64
 # required by chez-scheme (argument)
 =dev-scheme/chez-scheme-9.4 ~amd64
+# required by www-client/qutebrowser-0.9.1::gentoo
+# required by qutebrowser (argument)
+=dev-python/pypeg2-2.15.2 ~amd64
+# required by qutebrowser (argument)
+=www-client/qutebrowser-0.9.1 ~amd64
+# required by www-client/qutebrowser-0.9.1::gentoo
+# required by qutebrowser (argument)
+=dev-python/pygments-2.2.0 ~amd64
