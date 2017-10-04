@@ -1,5 +1,6 @@
 directory: /hdd/music-lib
 library: ~/beetslib2.blb
+plugins: lastgenre
 import:
  move: no
  write: yes
